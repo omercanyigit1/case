@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    background: #F9F9F9;
+}
+
+.container {
+    width: calc(100% - 100px);
+}

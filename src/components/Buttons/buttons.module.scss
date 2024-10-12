@@ -1,0 +1,32 @@
+.btnSecondary {
+    background: #1CA78C;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 19.12px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 116px;
+    height: 42px;
+    
+    &:hover {
+        background: rgba(28, 167, 140, .8);
+    }
+}
+
+.btnSolutions {
+    background: linear-gradient(180deg, #1ABC9C 0%, #16A085 100%);
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21.86px;
+    text-align: left;
+    color: #FFFFFF;
+    min-width: 116px;
+    height: 41px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0;
+    box-shadow: none;
+    border: none;
+}

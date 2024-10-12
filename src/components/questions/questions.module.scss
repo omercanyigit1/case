@@ -1,0 +1,98 @@
+.headerItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #1E2029;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 35px;
+    margin-bottom: 30px;
+
+    h1 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+    }
+}
+
+.questionWrapper {
+    background-color: var(--mantine-color-white);
+    padding: 20px;
+    box-shadow: 0px 12px 50px 0px #0000000A;
+    border-radius: 10px;
+
+    .questionActions {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        span.questionNumber {
+            background: rgb(44, 62, 80);
+            color: #fff;
+            font-size: 12px;
+            font-weight: 800;
+            line-height: 16.39px;
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        .questionActionsBtns {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .questionActionBtn {
+            background: rgba(237, 242, 244, .4);
+            width: 50px;
+            height: 50px;
+            border-radius: 10px;
+            color: #2C3E50;
+
+            &.questionActionBtnAlert {
+                color: #F85050;
+            } 
+        }
+    }
+}
+
+.questionItem {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+
+    &.activeQuestion {
+        display: flex;
+    }
+
+    &.inActiveQuestion {
+        display: none;
+    }
+
+    .questionTextWrapper {
+        display: flex;
+        flex-direction: column;
+
+        p {
+            font-size: 18px;
+            line-height: 26px;
+            text-align: left;
+            color: #2C3E50;
+        }
+
+        p.questionText {
+            font-weight: 400;
+        }
+
+        p.questionSubText {
+            font-weight: 700;
+        }
+    }
+}
+
+.answerWrapper {
+    width: 100%;
+}

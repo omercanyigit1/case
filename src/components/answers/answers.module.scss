@@ -1,0 +1,127 @@
+
+$gray: #2C3E50;
+$lightGray: #EDF2F4;
+$green: #1abc9c;
+$red: #F85050;
+
+.answerItem {
+    background: rgba($lightGray, .4);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 100%;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px 20px 20px;
+    margin-bottom: 5px;
+    position: relative;
+
+    &:hover {
+        background-color: rgba($gray, .1);
+
+        .btnAnswer {
+            visibility: visible;
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .radioInner {
+        width: 20px;
+        height: 20px;
+        position: relative;
+    }
+    
+    .radioItem {
+        border: 1px solid $gray;
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .radioIcon {
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: $gray;
+    }
+}
+
+.btnAnswer {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s, transform .3s;
+    transform: translateY(-10px);
+    top: 6px;
+    right: 10px;
+}
+
+.correctAnswerItem {
+    border-color: $green;
+    color: $green;
+    background: rgba($green, .05);
+    color: $green;
+
+    &:hover {
+        border-color: $green;
+        color: $green;
+        background: rgba($green, .05);
+
+        .btnAnswer {
+            display: none;
+        }
+    }
+
+    .radioItem {
+        border-color: $green;
+    }
+
+    .radioIcon {
+        color: $green;
+    }
+}
+
+.inCorrectAnswerItem {
+    border-color: $red;
+    color: $red;
+    background: $red;
+    color: #fff;
+
+    &:hover {
+        border-color: $red;
+        color: #fff;
+        background: $red;
+
+        .btnAnswer {
+            display: none;
+        }
+    }
+
+    .radioItem {
+        border-color: #fff;
+    }
+
+    .radioIcon {
+        background-color: $red;
+        color: #fff;
+        border: 1px solid $red;
+        width: 16px;
+        height: 16px;
+    }
+}
+
+.flexDirection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    span {
+        margin-left: 8px;
+    }
+}

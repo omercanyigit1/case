@@ -1,0 +1,46 @@
+{
+    "questions": [
+    { 
+        "id": "1", 
+        "text": "“Şair, şiirlerinde hava alacak boşluk bırakmıyor, her şeyi söylüyor. Okuyucunun adına da kendisi konuşuyor. Bunun için dizleri hayalinizi perdeliyor, soluğunuzu kesiyor, sizi boğuyor.”",
+        "subText": "Bu parçada geçen “hava alacak boşluk bırakmamak” sözüyle anlatılmak istenen aşağıdakilerden hangisidir?",
+        "questionNumber": 1,
+        "answers": 
+        [{ 
+            "id": "1", 
+            "text": "<b><u> Görgüsüzce </u></b> davranmasaydın, seni böyle dışlamazdık.", 
+            "questionId": "1",
+            "choice": "A",            
+            "isAnswer": false
+        },
+        { 
+            "id": "2", 
+            "text": "Ekip arkadaşlarıyla ters düşmeyen, <b><u> uyumlu </u></b> bir teknisyendi", 
+            "questionId": "1",
+            "choice": "B",
+            "isAnswer": true 
+        },
+        { 
+            "id": "3", 
+            "text": "Her şeyin kendisinin olmasını isteyen <b><u> açgözlü </u></b> biriydi.", 
+            "questionId": "1",
+            "choice": "C",
+            "isAnswer": false 
+        },
+        { 
+            "id": "4", 
+            "text": "Bir dediği bir dediğini tutmayan <b><u> tutarsız </u></b> bir gazeteciydi.", 
+            "questionId": "1",
+            "choice": "D",
+            "isAnswer": false 
+        },
+        { 
+            "id": "5", 
+            "text": "Ağzında bakla ıslanmayan <b><u> boşboğaz </u></b> adamın tekiydi o.", 
+            "questionId": "1",
+            "choice": "E",
+            "isAnswer": false 
+        }]
+    }
+    ]
+  }
